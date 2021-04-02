@@ -7,6 +7,7 @@ export const Hero: React.FC = () => {
       backgroundRepeat="no-repeat"
       backgroundSize="cover"
       justify="center"
+      px="8"
     >
       <Flex w="100%" maxWidth="1200px" justify="space-between">
         <Flex flexDirection="column" py="24">
