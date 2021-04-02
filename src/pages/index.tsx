@@ -1,11 +1,26 @@
 import { Box, Divider, Flex, Text } from '@chakra-ui/react';
 import Head from 'next/head';
+import { useEffect, useState } from 'react';
+import Continent from '../@types/Continent';
 import { Carousel } from '../components/Carousel';
 
 import { Hero } from '../components/Hero';
 import { PresentationSection } from '../components/PresentationSection';
+import { api } from '../services/api';
 
 export default function Home(): JSX.Element {
+  const [continents, setContinents] = useState<Continent[]>([]);
+
+  useEffect(() => {
+    async function findContinents(): Promise<void> {
+      const response = await api.get<Continent[]>('/continents');
+
+      setContinents(response.data);
+    }
+
+    findContinents();
+  }, []);
+
   return (
     <>
       <Head>
@@ -32,7 +47,7 @@ export default function Home(): JSX.Element {
       </Flex>
 
       <Box px="8" pb="8">
-        <Carousel />
+        <Carousel continents={continents} />
       </Box>
     </>
   );
