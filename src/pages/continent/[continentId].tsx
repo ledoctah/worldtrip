@@ -1,5 +1,14 @@
 import { GetStaticPaths, GetStaticProps } from 'next';
-import { Box, Flex, Grid, HStack, SimpleGrid, Text } from '@chakra-ui/react';
+import {
+  Box,
+  Flex,
+  Grid,
+  HStack,
+  SimpleGrid,
+  Spinner,
+  Text,
+} from '@chakra-ui/react';
+import { useRouter } from 'next/router';
 
 import ContinentInterface from '../../@types/Continent';
 import ContinentInfo from '../../@types/ContinentInfo';
@@ -21,6 +30,17 @@ export default function Continent({
   description,
   photo_url,
 }: ContinentProps): JSX.Element {
+  const { isFallback } = useRouter();
+
+  if (isFallback) {
+    return (
+      <Flex justify="center" align="center" direction="column">
+        <Spinner />
+        <Text mt="4">Carregando...</Text>
+      </Flex>
+    );
+  }
+
   return (
     <>
       <Banner continentName={name} photo_url={photo_url} />
@@ -76,13 +96,13 @@ export default function Continent({
             minChildWidth={['256px']}
             gap="8"
             gridTemplateColumns={
-              cities.length < 4
+              cities?.length < 4
                 ? 'repeat(auto-fit, minmax(256px, 300px))'
                 : 'repeat(auto-fit, minmax(256px, 1fr))'
             }
             justifyItems="center"
           >
-            {cities.map(city => (
+            {cities?.map(city => (
               <CityCard key={city.id} city={city} />
             ))}
           </SimpleGrid>
@@ -114,7 +134,9 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     `/continent-info?continentId=${continentId}`
   );
 
-  if (!continentInfo.data) {
+  console.log(continentInfo);
+
+  if (!continentInfo.data[0]) {
     return {
       props: {},
       redirect: {
@@ -128,6 +150,5 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     props: {
       ...continentInfo.data[0],
     },
-    revalidate: 60 * 60 * 1,
   };
 };

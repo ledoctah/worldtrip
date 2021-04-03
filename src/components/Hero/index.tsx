@@ -1,6 +1,11 @@
-import { Image, Flex, Text } from '@chakra-ui/react';
+import { Image, Flex, Text, useBreakpointValue } from '@chakra-ui/react';
 
 export const Hero: React.FC = () => {
+  const isWideVersion = useBreakpointValue({
+    base: false,
+    lg: true,
+  });
+
   return (
     <Flex
       backgroundImage="url('/images/banner.png')"
@@ -17,12 +22,13 @@ export const Hero: React.FC = () => {
           </Flex>
 
           <Flex direction="column" color="info" fontSize="lg">
-            <Text>Chegou a hora de tirar do papel a viagem que você</Text>
-            <Text>sempre sonhou.</Text>
+            <Text>
+              Chegou a hora de tirar do papel a viagem que você sempre sonhou.
+            </Text>
           </Flex>
         </Flex>
 
-        <Image mb="-32" src="/assets/airplane.svg" />
+        {isWideVersion && <Image mb="-32" src="/assets/airplane.svg" />}
       </Flex>
     </Flex>
   );

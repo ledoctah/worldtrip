@@ -33,10 +33,10 @@ export const CarouselItem: React.FC<CarouselItemProps> = ({ continent }) => {
           filter="brightness(0.7) blur(2px)"
         />
 
-        <Text fontSize="5xl" fontWeight="bold" zIndex="999">
+        <Text fontSize={['3xl', '5xl']} fontWeight="bold" zIndex="999">
           {continent.name}
         </Text>
-        <Text fontSize="xl" fontWeight="bold" zIndex="999">
+        <Text fontSize={['md', 'xl']} fontWeight="bold" zIndex="999">
           {continent.description}
         </Text>
       </Flex>
