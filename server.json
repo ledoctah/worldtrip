@@ -30,5 +30,158 @@
       "description": "O continente da Austrália.",
       "photo_url": "https://images.unsplash.com/photo-1496144500784-f81a98b4f391?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=100"
     }
+  ],
+  "continent-info": [
+    {
+      "id": 1,
+      "continentId": 1,
+      "name": "Europa",
+      "photo_url": "https://images.unsplash.com/photo-1490093218111-bbad07808658?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80",
+      "description": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste.",
+      "countries_count": 50,
+      "languages_count": 60,
+      "cities_count": 5,
+      "cities": [
+        {
+          "id": 1,
+          "city": "Londres",
+          "country": "Reino Unido",
+          "flag_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_the_United_Kingdom_%282-3%29.svg/320px-Flag_of_the_United_Kingdom_%282-3%29.svg.png",
+          "photo_url": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "id": 2,
+          "city": "Paris",
+          "country": "França",
+          "flag_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Flag_of_France.png/320px-Flag_of_France.png",
+          "photo_url": "https://images.unsplash.com/photo-1431274172761-fca41d930114?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "id": 3,
+          "city": "Roma",
+          "country": "Itália",
+          "flag_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/320px-Flag_of_Italy.svg.png",
+          "photo_url": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "id": 4,
+          "city": "Praga",
+          "country": "República Tcheca",
+          "flag_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Flag_of_the_Czech_Republic_%28bordered%29.svg/320px-Flag_of_the_Czech_Republic_%28bordered%29.svg.png",
+          "photo_url": "https://images.unsplash.com/photo-1519677100203-a0e668c92439?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "id": 5,
+          "city": "Amsterdã",
+          "country": "Holanda",
+          "flag_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/320px-Flag_of_the_Netherlands.svg.png",
+          "photo_url": "https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "continentId": 2,
+      "name":"América",
+      "photo_url": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80",
+      "description": "América ou Américas é o continente localizado no hemisfério ocidental e que se estende, no sentido norte-sul, desde o oceano Ártico até o cabo Horn, ao longo de cerca de 15 mil quilômetros.",
+      "countries_count": 36,
+      "languages_count": 1061,
+      "cities_count": 3,
+      "cities": [
+        {
+          "id": 6,
+          "city": "São Paulo",
+          "country": "Brasil",
+          "flag_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/320px-Flag_of_Brazil.svg.png",
+          "photo_url": "https://images.unsplash.com/photo-1541686130653-ccf10c61f8a7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "id": 7,
+          "city": "Buenos Aires",
+          "country": "Argentina",
+          "flag_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Flag_of_Argentina_%283-2%29.svg/320px-Flag_of_Argentina_%283-2%29.svg.png",
+          "photo_url": "https://images.unsplash.com/photo-1494439736452-d63976238a58?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "id": 8,
+          "city": "Cancún",
+          "country": "México",
+          "flag_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Flag_of_Mexico.png/320px-Flag_of_Mexico.png",
+          "photo_url": "https://images.unsplash.com/photo-1510097467424-192d713fd8b2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=800&q=80"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "continentId": 3,
+      "name":"Ásia",
+      "photo_url": "https://images.unsplash.com/photo-1480796927426-f609979314bd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "description": "A Ásia é o maior dos continentes, tanto em área como em população. Abrange um terço das partes sólidas da superfície da Terra e é responsável por abrigar quase três quintos da população mundial.",
+      "countries_count": 51,
+      "languages_count": 2300,
+      "cities_count": 1,
+      "cities": [
+        {
+          "id": 9,
+          "city": "Tóquio",
+          "country": "Japão",
+          "flag_url": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/320px-Flag_of_Japan.svg.png",
+          "photo_url": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "id": 10,
+          "city": "Calcutá",
+          "country": "Índia",
+          "flag_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_India.svg/320px-Flag_of_India.svg.png",
+          "photo_url": "https://images.unsplash.com/photo-1587793209561-5a80c58de35d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "continentId": 4,
+      "name":"África",
+      "photo_url": "https://images.unsplash.com/photo-1523805009345-7448845a9e53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "description": "A África é o terceiro continente mais extenso com cerca de 30 milhões de quilômetros quadrados, cobrindo 20,3 % da área total da terra firme do planeta.",
+      "countries_count": 54,
+      "languages_count": 2092,
+      "cities_count": 2,
+      "cities": [
+        {
+          "id": 11,
+          "city": "Cairo",
+          "country": "Egito",
+          "flag_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/320px-Flag_of_Egypt.svg.png",
+          "photo_url": "https://images.unsplash.com/photo-1541769740-098e80269166?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+        },
+        {
+          "id": 12,
+          "city": "Rabat",
+          "country": "Marrocos",
+          "flag_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/320px-Flag_of_Morocco.svg.png",
+          "photo_url": "https://images.unsplash.com/photo-1583232827257-1cadca075343?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "continentId": 5,
+      "name":"Oceania",
+      "photo_url": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1500&q=80",
+      "description": "Oceania ou Oceânia é uma região geográfica composta por vários grupos de ilhas do oceano Pacífico. O termo Oceania foi criado em 1831 pelo explorador francês Dumont d'Urville.",
+      "countries_count": 14,
+      "languages_count": 23,
+      "cities_count": 1,
+      "cities": [
+        {
+          "id": 13,
+          "city": "Camberra",
+          "country": "Austrália",
+          "flag_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/320px-Flag_of_Australia_%28converted%29.svg.png",
+          "photo_url": "https://images.unsplash.com/photo-1565419081241-df2d7e716dc8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
+        }
+      ]
+    }
   ]
 }
